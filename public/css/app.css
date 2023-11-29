@@ -11856,5 +11856,29 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+.carousel1 {
+  height: 80vh;
+}
+
+.achraf {
+  background-image: url(../img/slider.jpg);
+  height: 80vh;
+  width: 100vw;
+  background-size: cover;
+}
+
+.achraf1 {
+  background-image: url(../img/slider2.jpg);
+  height: 80vh;
+  width: 100vw;
+  background-size: cover;
+}
+
+.achraf2 {
+  background-image: url(../img/slider3.jpg);
+  height: 80vh;
+  width: 100vw;
+  background-size: cover;
+}
 
 /*# sourceMappingURL=app.css.map */
