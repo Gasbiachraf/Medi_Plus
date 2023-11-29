@@ -11954,4 +11954,18 @@ textarea.form-control-lg {
   background-size: cover;
 }
 
+.form-textarea {
+  width: 78%;
+}
+
+.form-select {
+  width: 37.5%;
+  border: 1px solid black;
+}
+
+.border-input {
+  border: 1px solid black;
+  border-radius: 6px;
+}
+
 /*# sourceMappingURL=app.css.map */
