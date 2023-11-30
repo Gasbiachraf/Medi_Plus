@@ -11928,7 +11928,6 @@ textarea.form-control-lg {
 
 .bg {
   background-color: black;
-  z-index: 3900;
 }
 .bg .section3 {
   background-image: url(../img/bread-bg.jpg);
@@ -11980,6 +11979,110 @@ textarea.form-control-lg {
 
 .sec12-child {
   width: 90%;
+}
+
+@media (max-width: 430px) {
+  .carousel1 {
+    height: 80vh;
+  }
+  .section2 {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5%;
+  }
+  .section2 .sec2-parent {
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .section2 .sec2-parent p {
+    padding-bottom: 2%;
+    text-align: center;
+  }
+  .section2 .sec2-parent img {
+    padding-bottom: 1%;
+    padding-top: 2%;
+  }
+  .section2 .sec2-parent h3, .section2 .sec2-parent .h3 {
+    margin: 0%;
+    padding: 0%;
+    padding-top: 5vh;
+  }
+  .section2 .sec2-parent .sec2-child {
+    display: flex;
+    flex-direction: column;
+  }
+  .section2 .sec2-parent .sec2-child .sec-child1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .section2 .sec2-parent .sec2-child .sec-child1 p {
+    text-align: center;
+    padding-top: 1%;
+  }
+  .section2 .sec2-parent .sec2-child .sec-child1 h4, .section2 .sec2-parent .sec2-child .sec-child1 .h4 {
+    padding-top: 2%;
+    padding-bottom: 2%;
+  }
+  .section2 .sec2-parent .sec2-child .sec-child1 i {
+    font-size: 250%;
+    border: 1px solid gray;
+    border-radius: 100%;
+    padding: 4%;
+  }
+  .bg {
+    background-color: black;
+  }
+  .bg .section3 {
+    background-image: url(../img/bread-bg.jpg);
+    background-size: cover;
+  }
+  .bg .section3 .sec3-child {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 3vh;
+  }
+  .bg .section3 .sec3-child h4, .bg .section3 .sec3-child .h4 {
+    padding-top: 2vh;
+  }
+  .section4, .section6, .section7 {
+    width: 100vw !important;
+  }
+  .section4 h3, .section4 .h3, .section6 h3, .section6 .h3, .section7 h3, .section7 .h3 {
+    width: 90% !important;
+  }
+  .section4 img, .section6 img, .section7 img {
+    width: 12%;
+  }
+  .section4 p, .section6 p, .section7 p {
+    width: 90% !important;
+  }
+  .section4 .sec4-child, .section6 .sec4-child, .section7 .sec4-child {
+    width: 100% !important;
+    justify-content: center;
+    padding-left: 4vw;
+  }
+  .section4 .sec4-child p, .section6 .sec4-child p, .section7 .sec4-child p {
+    margin-bottom: 0 !important;
+  }
+  .section4 .sec4-child h4, .section4 .sec4-child .h4, .section6 .sec4-child h4, .section6 .sec4-child .h4, .section7 .sec4-child h4, .section7 .sec4-child .h4 {
+    font-size: xx-large;
+  }
+  .section4 .sec4-child2, .section6 .sec4-child2, .section7 .sec4-child2 {
+    width: 100vw !important;
+  }
+  .section5 {
+    width: 100vw !important;
+  }
+  .section5 .sec5-child {
+    width: 100vw !important;
+    font-size: xx-large;
+  }
 }
 
 /*# sourceMappingURL=app.css.map */

@@ -54,7 +54,6 @@
 // section3
 .bg
     background-color: black
-    z-index: 3900
     .section3
         background-image: url(../img/bread-bg.jpg)
         background-size: cover
@@ -80,15 +79,15 @@
     width: 100%
 .form-select
     width: 17vw
-    border: 1px solid black  
+    border: 1px solid black
 .sec11-child
     width: 50%
     .border-input
-        border: 1px solid black  
-        border-radius: 6px    
+        border: 1px solid black
+        border-radius: 6px
         width: 50%
         height: 50px
-    .border-textarea    
+    .border-textarea
         width: 100%
         height: 150px
         border-radius: 10px
@@ -96,5 +95,91 @@
 .sec12-child
     width: 90%
 
-
 @media  ( max-width: 430px )
+    // section1
+    .carousel1
+        height: 80vh
+
+    // section2
+    .section2
+        display: flex
+        justify-content: center
+        padding-bottom: 5%
+        .sec2-parent
+            width: 90vw
+            display: flex
+            flex-direction: column
+            align-items: center
+            p
+                padding-bottom: 2%
+                text-align: center
+            img
+                padding-bottom: 1%
+                padding-top: 2%
+
+            h3
+                margin: 0%
+                padding: 0%
+                padding-top: 5vh
+
+            .sec2-child
+                display: flex
+                flex-direction: column
+                .sec-child1
+                    display: flex
+                    flex-direction: column
+                    align-items: center
+                    p
+                        text-align: center
+                        padding-top: 1%
+                    h4
+                        padding-top: 2%
+                        padding-bottom: 2%
+                    i
+                        font-size: 250%
+                        border: 1px solid gray
+                        border-radius: 100%
+                        padding: 4%
+    // section3
+    .bg
+        background-color: black
+        .section3
+            background-image: url(../img/bread-bg.jpg)
+            background-size: cover
+            .sec3-child
+                width: 50%
+                display: flex
+                align-items: center
+                justify-content: center
+                text-align: center
+                padding-top: 3vh
+                h4
+                    padding-top: 2vh
+    // section4
+    .section4 , .section6 , .section7
+        width: 100vw !important
+        h3
+            width: 90% !important
+        img
+            width: 12%   
+        p
+            width: 90% !important    
+        .sec4-child
+            width: 100% !important 
+            justify-content: center
+            padding-left: 4vw
+            p
+                margin-bottom: 0 !important
+
+            h4
+                font-size: xx-large
+        .sec4-child2
+            width: 100vw !important
+    // section5
+    .section5
+        width: 100vw !important   
+        .sec5-child
+            width: 100vw !important 
+            font-size: xx-large
+            
+
