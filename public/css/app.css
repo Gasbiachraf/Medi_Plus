@@ -12074,7 +12074,7 @@ textarea.form-control-lg {
     font-size: xx-large;
   }
   .section4 .sec4-child2, .section6 .sec4-child2, .section7 .sec4-child2 {
-    width: 100vw !important;
+    width: 90vw !important;
   }
   .section5 {
     width: 100vw !important;
@@ -12092,6 +12092,17 @@ textarea.form-control-lg {
   }
   .section6 .sec6-child2 img {
     width: 90%;
+  }
+  .section7 .sec7-child2 {
+    width: 100vw !important;
+    padding-left: 5vw;
+  }
+  .section7 .sec7-child2 .sec7-child21 {
+    width: 100vw !important;
+    padding-bottom: 4vh;
+  }
+  .section7 .sec7-child2 .sec7-child21 i {
+    font-size: 250% !important;
   }
 }
 
