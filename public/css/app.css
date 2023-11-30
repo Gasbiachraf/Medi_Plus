@@ -12083,6 +12083,16 @@ textarea.form-control-lg {
     width: 100vw !important;
     font-size: xx-large;
   }
+  .section6 .sec6-child2 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2vh;
+  }
+  .section6 .sec6-child2 img {
+    width: 90%;
+  }
 }
 
 /*# sourceMappingURL=app.css.map */
