@@ -11983,7 +11983,33 @@ textarea.form-control-lg {
 
 @media (max-width: 430px) {
   .carousel1 {
-    height: 80vh;
+    height: 65vh !important;
+    width: 100vw !important;
+  }
+  .slider {
+    background-image: url(../img/slider.jpg);
+    height: 100% !important;
+    width: 100% !important;
+    background-size: cover;
+  }
+  .slider1 {
+    background-image: url(../img/slider2.jpg);
+    height: 100% !important;
+    width: 100% !important;
+    background-size: cover;
+  }
+  .slider2 {
+    background-image: url(../img/slider3.jpg);
+    height: 100% !important;
+    width: 100% !important;
+    background-size: cover;
+  }
+  .res-carosel {
+    width: 90% !important;
+    padding-left: 6vw;
+  }
+  .res-carosel button {
+    width: 100% !important;
   }
   .section2 {
     display: flex;
