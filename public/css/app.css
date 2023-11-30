@@ -11963,9 +11963,19 @@ textarea.form-control-lg {
   border: 1px solid black;
 }
 
-.border-input {
+.sec11-child {
+  width: 50%;
+}
+.sec11-child .border-input {
   border: 1px solid black;
   border-radius: 6px;
+  width: 50%;
+  height: 50px;
+}
+.sec11-child .border-textarea {
+  width: 100%;
+  height: 150px;
+  border-radius: 10px;
 }
 
 .sec12-child {
