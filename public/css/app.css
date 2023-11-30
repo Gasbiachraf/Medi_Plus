@@ -11955,11 +11955,11 @@ textarea.form-control-lg {
 }
 
 .form-textarea {
-  width: 78%;
+  width: 100%;
 }
 
 .form-select {
-  width: 37.5%;
+  width: 17vw;
   border: 1px solid black;
 }
 
