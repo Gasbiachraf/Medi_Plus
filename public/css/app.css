@@ -11916,10 +11916,6 @@ footer i:hover {
   right: 0;
 }
 
-.carousel0 {
-  z-index: 3;
-}
-
 .carousel1 {
   height: 80vh;
 }
@@ -12020,6 +12016,10 @@ footer i:hover {
   inset: 0;
   opacity: 20%;
   z-index: -1;
+}
+
+.section6 .sec6-child2 .sec6-child21 button {
+  display: none;
 }
 
 .sec7-child2 {
