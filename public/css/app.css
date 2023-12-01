@@ -12069,6 +12069,10 @@ footer i:hover {
   width: 90%;
 }
 
+.hvr-link:hover {
+  padding-left: 25px;
+}
+
 @media (max-width: 430px) {
   main {
     margin-top: 63px;
@@ -12205,7 +12209,7 @@ footer i:hover {
     gap: 2vh;
   }
   .section6 .sec6-child2 img {
-    width: 90%;
+    width: 100%;
   }
   .section7 .sec7-child2 {
     width: 100vw !important;
