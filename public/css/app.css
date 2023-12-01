@@ -11856,6 +11856,74 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+.btn1 {
+  position: relative;
+  display: inline-block;
+  color: white;
+  background-image: linear-gradient(#363636, #363636);
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: 0% 100%;
+  transition: background-size 0.5s, color 0.5s;
+}
+
+.btn1:hover {
+  background-size: 100% 100% !important;
+}
+
+.btn2 {
+  position: relative;
+  display: inline-block;
+  color: white;
+  background-image: linear-gradient(#0d6efd, #0d6efd);
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: 0% 100%;
+  transition: background-size 0.5s, color 0.5s;
+}
+
+.btn2:hover {
+  background-size: 100% 100% !important;
+}
+
+.sec2-parent .sec2-child .sec-child1 i:hover {
+  background: #0d6efd;
+  color: white !important;
+}
+
+.sec5-btn1:hover {
+  background: #0d6efd !important;
+  color: white !important;
+}
+
+.sec5-btn2:hover {
+  background: white !important;
+  color: #0d6efd !important;
+}
+
+.sekk8 button:hover, .sekk11 button:hover, .sekk12 button:hover {
+  background: gray !important;
+}
+
+.sekk9 a:hover {
+  background: gray !important;
+}
+
+footer i:hover {
+  background: white;
+  color: #0d6efd !important;
+}
+
+.btn-sidebare {
+  z-index: 5;
+  top: 30vh;
+  right: 0;
+}
+
+.carousel0 {
+  z-index: 3;
+}
+
 .carousel1 {
   height: 80vh;
 }
@@ -11926,15 +11994,36 @@ textarea.form-control-lg {
   padding: 8%;
 }
 
-.bg {
-  background-color: black;
-}
 .bg .section3 {
   background-image: url(../img/bread-bg.jpg);
   background-size: cover;
+  z-index: -2;
+  position: relative;
 }
-.bg .section3 .sec3-child {
-  width: 30%;
+.bg .section3::after {
+  content: "";
+  position: absolute;
+  background-color: blue;
+  inset: 0;
+  opacity: 20%;
+  z-index: -1;
+}
+
+.sec5-attach {
+  background-image: url(../img/call-bg.jpg);
+  z-index: -2;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+.sec5-attach::after {
+  content: "";
+  position: absolute;
+  background-color: blue;
+  inset: 0;
+  opacity: 20%;
+  z-index: -1;
 }
 
 .sec7-child2 {
@@ -12057,9 +12146,6 @@ textarea.form-control-lg {
     border: 1px solid gray;
     border-radius: 100%;
     padding: 4%;
-  }
-  .bg {
-    background-color: black;
   }
   .bg .section3 {
     background-image: url(../img/bread-bg.jpg);
@@ -12197,6 +12283,27 @@ textarea.form-control-lg {
     padding: 0 !important;
     margin: 0 !important;
   }
+}
+nav .container-fluid .navbar-brind, nav .container-sm .navbar-brind, nav .container-md .navbar-brind, nav .container-lg .navbar-brind, nav .container-xl .navbar-brind, nav .container-xxl .navbar-brind {
+  width: 50% !important;
+}
+nav .container-fluid .navbar-nav .nav-item, nav .container-sm .navbar-nav .nav-item, nav .container-md .navbar-nav .nav-item, nav .container-lg .navbar-nav .nav-item, nav .container-xl .navbar-nav .nav-item, nav .container-xxl .navbar-nav .nav-item {
+  position: relative;
+}
+nav .container-fluid .navbar-nav .nav-item::after, nav .container-sm .navbar-nav .nav-item::after, nav .container-md .navbar-nav .nav-item::after, nav .container-lg .navbar-nav .nav-item::after, nav .container-xl .navbar-nav .nav-item::after, nav .container-xxl .navbar-nav .nav-item::after {
+  content: "";
+  border-bottom: 3px solid #00a1fe;
+  width: 0%;
+  position: absolute;
+  left: 0;
+  top: 6.5vh;
+  transition: 1s;
+}
+nav .container-fluid .navbar-nav .nav-item:hover::after, nav .container-sm .navbar-nav .nav-item:hover::after, nav .container-md .navbar-nav .nav-item:hover::after, nav .container-lg .navbar-nav .nav-item:hover::after, nav .container-xl .navbar-nav .nav-item:hover::after, nav .container-xxl .navbar-nav .nav-item:hover::after {
+  width: 100%;
+}
+nav .container-fluid .navbar-nav .nav-item .nav-link:hover, nav .container-sm .navbar-nav .nav-item .nav-link:hover, nav .container-md .navbar-nav .nav-item .nav-link:hover, nav .container-lg .navbar-nav .nav-item .nav-link:hover, nav .container-xl .navbar-nav .nav-item .nav-link:hover, nav .container-xxl .navbar-nav .nav-item .nav-link:hover {
+  color: #00a1fe;
 }
 
 /*# sourceMappingURL=app.css.map */

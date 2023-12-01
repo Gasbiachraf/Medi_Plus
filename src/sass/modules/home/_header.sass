@@ -1,0 +1,23 @@
+// HOVER
+// hover-navbar
+nav
+    .container-fluid
+        .navbar-brind
+            width: 50% !important
+        .navbar-nav
+            .nav-item
+                position: relative
+                &::after
+                    content: ''
+                    border-bottom: 3px solid #00a1fe
+                    width: 0%
+                    position: absolute
+                    left: 0
+                    top: 6.5vh
+                    transition: 1s
+                &:hover
+                    &::after
+                        width: 100%
+                .nav-link
+                    &:hover
+                        color: #00a1fe

@@ -13,7 +13,8 @@
     <header>
         <nav class="navbar navbar-expand-lg bg-body-tertiary d-flex justify-content-center  ps-5 ">
             <div class="d-flex ps-5  container-fluid">
-                <a href="./index.html" class="navbar-brand pe-5" href="#"><img src="./public/img/logo.png" alt="logo navbar"></a>
+                <a href="./index.html" class="navbar-brand pe-5" href="#"><img src="./public/img/logo.png"
+                        alt="logo navbar"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
                     aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -52,15 +53,42 @@
                         </li>
                     </ul>
                     <span class="navbar-text pe-5">
-                        <button class="text-white bg-primary rounded-1 py-2 px-4 border-0">Book appointement</button>
+                        <button class="btn1 text-white bg-primary rounded-1 py-2 px-4 border-0">Book appointement</button>
                     </span>
                 </div>
             </div>
         </nav>
     </header>
     <main>
+        <!-- sidebar -->
+        <div class="position-relative d-flex ">
+            <button class="btn btn-primary position-fixed btn-sidebare position-absolute " type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#staticBackdrop" aria-controls="staticBackdrop">
+                Get pro
+            </button>
+
+            <div class="offcanvas offcanvas-start w-25 h-75 mt-5  " data-bs-backdrop="static" tabindex="-1" id="staticBackdrop"
+                aria-labelledby="staticBackdropLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="staticBackdropLabel">    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body ">
+                    <div class="">
+                        <p class="text-primary">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        <p>2+ Lorem ipsum dolor sit.</p>
+                        <p>20+ Lorem ipsum dolor sit.</p>
+                        <P>Lorem ipsum dolor sit amet.</P>
+                        <P>Lorem ipsum dolor sit amet.</P>
+                        <P>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</P>
+                        <button class="w-100 bg-primary  border-0 rounded-2 py-lg-2 mb-lg-2 text-white">Pro version demo</button>
+                        <button class="w-100 bg-primary  border-0 rounded-2 py-lg-2 text-white">by pro version </button>
+                    </div>
+                </div>
+            </div>
+        </div>
         <!-- section1:carousel -->
-        <section class="carousel0">
+        <section class="carousel0 sekk1">
             <div id="carouselExampleIndicators" class="carousel slide ">
                 <div class="carousel-indicators ">
                     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
@@ -80,9 +108,9 @@
                                     doloremque voluptatem fugiat?
                                 </p>
                                 <div class="pt-3  d-flex flex-lg-row align-items-center flex-column gap-lg-0 gap-2">
-                                    <button class="rounded-1 bg-primary border-0 px-3 py-2 text-white">Get
+                                    <button class="btn1 rounded-1 bg-primary border-0 px-3 py-2 text-white">Get
                                         appointement</button>
-                                    <button class="rounded-1 bg-secondary border-0 px-3 py-2 text-white ms-lg-2">About
+                                    <button class="btn2 rounded-1 bg-secondary border-0 px-3 py-2 text-white ms-lg-2">About
                                         Us</button>
                                 </div>
                             </div>
@@ -96,10 +124,10 @@
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, quo. Quis earum error
                                     doloremque voluptatem fugiat?
                                 </p>
-                                <div class="pt-3  d-flex flex-lg-row align-items-center flex-column gap-lg-0 gap-2">
-                                    <button class="rounded-1 bg-primary border-0 px-3 py-2 text-white">Get
+                                <div class="crs-btn pt-3  d-flex flex-lg-row align-items-center flex-column gap-lg-0 gap-2">
+                                    <button class="btn1 rounded-1 bg-primary border-0 px-3 py-2 text-white">Get
                                         appointement</button>
-                                    <button class="rounded-1 bg-secondary border-0 px-3 py-2 text-white ms-lg-2">About
+                                    <button class="btn2 rounded-1 bg-secondary border-0 px-3 py-2 text-white ms-lg-2">About
                                         Us</button>
                                 </div>
                             </div>
@@ -114,9 +142,9 @@
                                     doloremque voluptatem fugiat?
                                 </p>
                                 <div class="pt-3  d-flex flex-lg-row align-items-center flex-column gap-lg-0 gap-2">
-                                    <button class="rounded-1 bg-primary border-0 px-3 py-2 text-white">Get
+                                    <button class="btn1 rounded-1 bg-primary border-0 px-3 py-2 text-white">Get
                                         appointement</button>
-                                    <button class="rounded-1 bg-secondary border-0 px-3 py-2 text-white ms-lg-2">About
+                                    <button class="btn2 rounded-1 bg-secondary border-0 px-3 py-2 text-white ms-lg-2">About
                                         Us</button>
                                 </div>
                             </div>
@@ -125,7 +153,7 @@
 
 
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                <button class="carousel-control-prev " type="button" data-bs-target="#carouselExampleIndicators"
                     data-bs-slide="prev">
                     <span class="carousel-control-prev-icon bg-primary rounded-5 me-5" aria-hidden="true"></span>
                     <span class="visually-hidden">Previous</span>
@@ -138,10 +166,10 @@
             </div>
         </section>
         <!-- section2 -->
-        <section>
+        <section class="sekk2">
             <div class="section2">
                 <div class="sec2-parent">
-                    <h3 >We Are Always Ready To Help You & Your Family</h3>
+                    <h3>We Are Always Ready To Help You & Your Family</h3>
                     <img src="./public/img/section-img.png" alt="IMAGE">
                     <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, vitae.</P>
                     <div class="sec2-child">
@@ -166,7 +194,7 @@
             </div>
         </section>
         <!-- secttion3:bg-blue -->
-        <section class="bg">
+        <section class="bg sec3-bg">
             <div class="section3 d-flex justify-content-center py-lg-5">
                 <div class="w-75 d-flex flex-lg-row flex-column justify-content-evenly align-items-center py-4">
                     <div class="d-flex flex-lg-row flex-column   align-items-center justify-content-center sec3-child">
@@ -225,10 +253,12 @@
                 <div class="d-flex flex-lg-row flex-column">
                     <div class="sec4-child d-flex w-50 flex-column justify-content-between">
                         <h4>Who we are</h4>
-                        <p class="pb-lg-0 pb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum maxime voluptates omnis
+                        <p class="pb-lg-0 pb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum maxime
+                            voluptates omnis
                             aliquid quas qui tempora placeat incidunt sit praesentium, consectetur sed,
                         </p>
-                        <P class="pb-lg-0 pb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima obcaecati provident harum
+                        <P class="pb-lg-0 pb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima
+                            obcaecati provident harum
                             animi ex vel.
                         </P>
                         <div class="d-flex flex-lg-row flex-column  justify-content-between">
@@ -264,20 +294,23 @@
                     </div>
                     <div class="sec4-child2 w-50 ps-5">
                         <video width="100%" poster="./public/img/poster.PNG" height="100%" controls
-                            src="./public/videos/Soigner une carie sans dévitaliser la dent - Le Magazine de la santé.mp4">Your browser does not support the video tag.</video>
+                            src="./public/videos/Soigner une carie sans dévitaliser la dent - Le Magazine de la santé.mp4">Your
+                            browser does not support the video tag.</video>
                     </div>
                 </div>
             </div>
         </section>
         <!-- section5 -->
-        <section class="bg-primary text-white d-flex justify-content-center  pb-2">
-            <div class="section5 w-50 d-flex flex-column align-items-center pt-5">
-                <h3 class="sec5-child w-75 text-center px-3"><b>Do you need Emergency medical care? call @ 1234 56789</b></h3>
-                <P class=" text-center py-4 px-lg-0 px-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius ad dolorum
+        <section class="sec5-attach bg-primary  text-white d-flex justify-content-center  pb-2">
+            <div class="section5 w-50 d-flex flex-column opacity-100 align-items-center pt-5">
+                <h3 class="sec5-child w-75 text-center px-3 "><b>Do you need Emergency medical care? call @ 1234
+                        56789</b></h3>
+                <P class=" text-center py-4 px-lg-0 px-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius
+                    ad dolorum
                     illo omnis eos officiis? ad dolorum illo omnis eos officiis?</P>
                 <div class="pb-5">
-                    <button class="rounded-1 py-2 px-4 bg-white border-0 me-3 text-primary "> Contact Now</button>
-                    <button class="rounded-1 py-2 px-4 border boder-white bg-primary ">Learn more => </button>
+                    <button class="sec5-btn1 rounded-1 py-2 px-4 bg-white border-0 me-3 text-primary text-primary "> Contact Now</button>
+                    <button class="sec5-btn2 rounded-1 py-2 px-4 border boder-white bg-primary  text-white">Learn more => </button>
                 </div>
             </div>
         </section>
@@ -369,7 +402,8 @@
             </div>
         </section>
         <!-- section8 -->
-        <section class="d-flex  flex-column justify-content-center align-items-center pb-5 pt-lg-0 pt-5 bg-body-secondary">
+        <section
+            class="sekk8 d-flex  flex-column justify-content-center align-items-center pb-5 pt-lg-0 pt-5 bg-body-secondary">
             <div class="section8 d-flex flex-column align-items-center w-100">
                 <div class="d-flex flex-column align-items-center">
                     <h3 class="pt-lg-5 w-75 text-center">We Provide You The Best treatment In Resonable Price</h3>
@@ -476,7 +510,7 @@
             </div>
         </section>
         <!-- section9 -->
-        <section class="d-flex  flex-column justify-content-center align-items-center py-5 ">
+        <section class="sekk9 d-flex  flex-column justify-content-center align-items-center py-5 ">
             <div class="sec9 d-flex flex-column align-items-center w-100 pt-lg-4">
                 <div class="d-flex flex-column align-items-center">
                     <h3 class="pt-lg-5 w-75 text-center">Keep Up With Our Most Recent Medical News.</h3>
@@ -485,7 +519,8 @@
                         ipsum.
                     </P>
                 </div>
-                <div class="sec9-child2 d-flex flex-lg-row flex-column justify-content-between w-75 pb-lg-5 gap-lg-0 gap-4">
+                <div
+                    class="sec9-child2 d-flex flex-lg-row flex-column justify-content-between w-75 pb-lg-5 gap-lg-0 gap-4">
                     <div class="sec9-parent  card shadow" style="width: 20rem; height:28rem ;">
                         <img src="./public/img/blog1.jpg" class="card-img-top pb-3" alt="...">
                         <div class="card-body">
@@ -534,7 +569,7 @@
 
         </section>
         <!-- section11 -->
-        <section class="d-flex  flex-column justify-content-center align-items-center ">
+        <section class="sekk11 d-flex  flex-column justify-content-center align-items-center ">
             <div class="section11 d-flex flex-column align-items-center w-100 pt-4">
                 <div class="d-flex flex-column align-items-center">
                     <h3 class="pt-lg-5 w-75 text-center">We are always Ready To Help You. Book And Appointment</h3>
@@ -551,16 +586,22 @@
                         </div>
                         <div class="d-flex flex-lg-row flex-column gap-3 ">
                             <input class="border-input " placeholder="Name" type="text">
-                            <select class="border-input" name="" id=""> <option value="">Email</option></select>
+                            <select class="border-input" name="" id="">
+                                <option value="">Email</option>
+                            </select>
                         </div>
                         <div class="d-flex flex-lg-row flex-column gap-3 flex-lg-row-reverse ">
                             <input class="border-input " placeholder="Name" type="date">
-                            <select class="border-input" name="" id=""> <option value="">Doctor</option></select>
+                            <select class="border-input" name="" id="">
+                                <option value="">Doctor</option>
+                            </select>
                         </div>
-                        <div >
-                            <textarea name="" id="" placeholder="write your message here..." class="border-textarea"></textarea>
+                        <div>
+                            <textarea name="" id="" placeholder="write your message here..."
+                                class="border-textarea"></textarea>
                         </div>
-                        <div class="d-flex flex-lg-row flex-column align-items-center justify-content-center w-100 gap-3">
+                        <div
+                            class="d-flex flex-lg-row flex-column align-items-center justify-content-center w-100 gap-3">
                             <button class="bg-primary border-0 rounded-2 text-white py-2 px-3">Book An
                                 Appointment</button>
                             <P class="pt-3 text-center"> (We will be confirm by an text message) </P>
@@ -573,14 +614,16 @@
             </div>
         </section>
         <!-- section12 -->
-        <section class="d-flex  justify-content-center bg-body-secondary pt-4">
+        <section class="sekk12 d-flex  justify-content-center bg-body-secondary pt-4">
             <div class="sec12-child d-flex flex-lg-row flex-column justify-content-between r py-5">
                 <div class="w-100 ms-lg-5 text-lg-start text-center">
                     <h4>Sign up for newsletter</h4>
-                    <p class="w-75 ms-lg-0 ms-5 pb-lg-0 pb-3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum, totam.</p>
+                    <p class="w-75 ms-lg-0 ms-5 pb-lg-0 pb-3">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                        Voluptatum, totam.</p>
                 </div>
                 <div class="w-100  sec12-child2 gap-lg-0 gap-3">
-                    <input class="border-0 rounded-2  py-3 px-lg-5 w-50 " placeholder="Your email address " type="email">
+                    <input class="border-0 rounded-2  py-3 px-lg-5 w-50 " placeholder="Your email address "
+                        type="email">
                     <button class="bg-primary border-0 rounded-2 text-white py-3 px-lg-5 ms-lg-2">Subscribe</button>
                 </div>
             </div>
@@ -592,8 +635,8 @@
             <!-- first -->
             <div class="d-flex flex-column pe-lg-5  w-100 pb-lg-0 pb-5 ">
                 <h3 class="pb-4">About us</h3>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis, voluptas  Ipsa Lorem, ipsum dolor.
-                    
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis, voluptas Ipsa Lorem, ipsum dolor.
+
                 </p>
                 <div class="pt-3">
                     <i class="fa-brands fa-facebook p-2 rounded-circle border border-1 me-1"
@@ -665,7 +708,7 @@
             <div class="d-flex flex-column pe-lg-5 w-100  pb-lg-0 pb-5">
                 <h3 class="pb-4">Open hours</h3>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit achraf Laudantium suscipits. 
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit achraf Laudantium suscipits.
                 </p>
                 <div class="d-flex justify-content-between pb-2">
                     <p p class="m-0">Monday-Frisday</p>
@@ -688,7 +731,8 @@
                 <div class="input-group mb-3 text-white">
                     <input type="text" class="form-control bg-primary py-3 " placeholder="Email address"
                         aria-label="Recipient's username" aria-describedby="basic-addon2">
-                    <span class="input-group-text bg-white px-3" id="basic-addon2"><i class="fa-brands fa-telegram fs-2" style="color: #29c2f5;"></i></span>
+                    <span class="input-group-text bg-white px-3" id="basic-addon2"><i class="fa-brands fa-telegram fs-2"
+                            style="color: #29c2f5;"></i></span>
                 </div>
             </div>
 
