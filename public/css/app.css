@@ -12073,9 +12073,25 @@ footer i:hover {
   padding-left: 15px;
 }
 
+.achraf {
+  margin-right: 10vw !important;
+  padding: 1.5vw !important;
+}
+
+.achraf1 {
+  margin-left: 5vw !important;
+  padding: 1.5vw !important;
+}
+
 @media (max-width: 430px) {
   main {
     margin-top: 63px;
+  }
+  .achraf {
+    display: none;
+  }
+  .achraf1 {
+    display: none;
   }
   .carousel1 {
     height: 65vh !important;
